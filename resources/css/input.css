@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+    :root {
+        --header-height: 3rem;
+
+        /*========== Colors ==========*/
+        --hue: 217;
+        --sat: 63%;
+
+        --color-base: hsl(var(--hue), var(--sat), 40%);
+        --color-alt: hsl(var(--hue), var(--sat), 36%);
+        --color-title: hsl(var(--hue), 12%, 15%);
+        --color-text: hsl(var(--hue), 8%, 35%);
+        --color-body: hsl(var(--hue), 100%, 99%);
+        --color-container: #fff;
+
+        --shadow: hsla(var(--hue), var(--sat), 15%, 0.15);
+
+        /*========== Font and typography ==========*/
+        --font-body: "Open Sans", sans-serif;
+        --font-h1-size: 1.5rem;
+        --font-normal-size: 0.938rem;
+        --font-tiny-size: 0.625rem;
+
+        /*========== z index ==========*/
+        --z-tooltip: 10;
+        --z-fixed: 100;
+    }
+
+    @media screen and (min-width: 968px) {
+        :root {
+            --font-h1-size: 2.25rem;
+            --font-normal-size: 1rem;
+        }
+    }
+
+    * {
+        font-family: "Open Sans", sans-serif;
+    }
+}
