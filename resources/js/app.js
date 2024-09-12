@@ -35,6 +35,8 @@ createInertiaApp({
                 },
                 ripple: true,
             })
+            .use(ConfirmationService)
+            .use(ToastService)
             .use(ZiggyVue)
             .mount(el);
     },
