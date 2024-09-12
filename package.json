@@ -7,6 +7,7 @@
     },
     "devDependencies": {
         "@inertiajs/vue3": "^1.0.0",
+        "@primevue/auto-import-resolver": "^4.0.7",
         "@tailwindcss/forms": "^0.5.3",
         "@vitejs/plugin-vue": "^5.0.0",
         "alpinejs": "^3.4.2",
@@ -17,7 +18,14 @@
         "prettier": "^3.3.3",
         "prettier-plugin-tailwindcss": "^0.6.5",
         "tailwindcss": "^3.2.1",
+        "unplugin-auto-import": "^0.18.2",
+        "unplugin-vue-components": "^0.27.4",
         "vite": "^5.0",
         "vue": "^3.4.0"
+    },
+    "dependencies": {
+        "@primevue/themes": "^4.0.7",
+        "primeicons": "^7.0.0",
+        "primevue": "^4.0.7"
     }
 }

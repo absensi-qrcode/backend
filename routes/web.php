@@ -28,4 +28,10 @@ Route::get('/data-profile', function () {
 	return view('profile');
 })->name('profile');
 
+// Route::get('/home', function() {
+//     return Inertia::render('Home');
+// });
+
+// Route::inertia('/home', 'Home');
+
 require __DIR__.'/auth.php';
